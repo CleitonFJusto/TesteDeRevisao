@@ -4,7 +4,6 @@ import ui.menu
 
 
 fun main() {
-
  criarTabelaCaixa()
     menu()
 }

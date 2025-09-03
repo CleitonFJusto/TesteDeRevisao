@@ -1,5 +1,7 @@
 package ui
 
+import crud.cadastrarCaixa
+
 fun menu() {
     do {
         println("1 - Cadastrar Caixa D' Água")
@@ -11,7 +13,7 @@ fun menu() {
         val opcao = readln().toInt()
 
         when(opcao){
-            1-> println("Cadastrando caixa...")
+            1-> println(cadastrarCaixa())
             2-> println("Editando caixa...")
             3-> println("Listar caixas...")
             4-> println("Excluindo caixa...")
