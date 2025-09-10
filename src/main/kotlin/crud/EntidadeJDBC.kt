@@ -18,7 +18,7 @@ class EntidadeJDBC(
                     //quando a Classe instanciada os atributos abaixo terão valores
                     this.url, this.usuario, this.senha
                 )
-            println("Conectou!")
+            println("Concluído com sucesso!!")
             return coneccao
 
         }catch (erro : Exception){
